@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.dependency 'CocoaAsyncSocket'
   s.header_dir = "CocoaAsyncSocket"
+  s.header_mappings_dir     = "CocoaAsyncSocket"
 end
