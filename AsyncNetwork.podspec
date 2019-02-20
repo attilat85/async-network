@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.ios.frameworks        = 'CFNetwork', 'Security'
   s.ios.deployment_target = '5.0'
   s.dependency 'CocoaAsyncSocket'
+  s.prefix_header_file = 'AsyncNetwork-Prefix.pch'
 end
