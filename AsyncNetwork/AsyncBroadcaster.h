@@ -23,6 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "GCDAsyncUdpSocket.h"
 
 @class AsyncBroadcaster;
 

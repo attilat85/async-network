@@ -23,6 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "GCDAsyncSocket.h"
 #import "AsyncConnection.h"
 
 /**
