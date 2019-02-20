@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = "Jonathan Diehl"
   s.source           = { :git => "https://github.com/jdiehl/async-network.git", :tag => s.version.to_s }
   s.requires_arc     = true
-  s.source_files     = 'AsyncNetwork', 'CocoaAsyncSocket'
+  s.source_files     = 'AsyncNetwork'
   s.osx.frameworks        = 'CFNetwork', 'Security'
   s.osx.deployment_target = '10.7'
   s.ios.frameworks        = 'CFNetwork', 'Security'
