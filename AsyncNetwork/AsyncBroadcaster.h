@@ -23,7 +23,6 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
 
 @class AsyncBroadcaster;
 
